@@ -1,0 +1,28 @@
+.events__header__eventList_item{
+    display: flex;
+    align-items: center;
+    width: 20em;
+}
+
+.events__header__eventList_item_img{
+    width: 1.3rem;
+    height: 1.3rem;
+    color: var(--primaryEnvitedPurple);
+    margin-right: 1em;
+}
+
+.events__header__eventList_item_content>h3{
+    margin: 0em;
+    font-size: .9rem;
+    color: var(--primaryTextPurpleDark);
+}
+
+.events__header__eventList_item_content>span{
+    font-size: .9rem;
+    color: var(--darkGray);
+}
+
+.events__header__eventList_item_arrow{
+    margin-left: auto;
+    color: var(--lightGray80);
+}
